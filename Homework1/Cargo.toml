@@ -42,10 +42,6 @@ name = "slice"
 path = "ch4/src/slice.rs"
 
 [[bin]]
-name = "string_slices"
-path = "ch4/src/string_slices.rs"
-
-[[bin]]
 name = "transfering_ownership"
 path = "ch4/src/transfering_ownership.rs"
 
