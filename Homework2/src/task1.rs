@@ -3,8 +3,7 @@
 
 Вывести номер строки, в которой встречается нужное слово и саму строку в формате:
 номер строки: строка...
-
- */
+*/
 
 const SEARCH_TERM: &str = "picture";
 const QUOTE: &str = "Every face, every shop, bedroom window, public-house, and
@@ -12,23 +11,29 @@ dark square is a picture feverishly turned--in search of what?
 It is the same with books. What do we seek through millions of pages?";
 
 fn main() {
-    find_term(SEARCH_TERM, QUOTE);
+    let result = find_term(SEARCH_TERM, QUOTE);
+    println!("{}", result);
 }
 
-fn find_term(search_term: &str, quote: &str) {
+fn find_term(search_term: &str, quote: &str) -> String {
+    let mut result = String::new();
     let lines: Vec<&str> = quote.split('\n').collect();
 
     for (index, line) in lines.iter().enumerate() {
         if line.contains(search_term) {
-            println!("{}: {}", index + 1, line);
+            result.push_str(&format!("{}: {}", index + 1, line));
+            break;
         }
     }
+
+    result
 }
 
 // ----> TESTS
 #[cfg(test)]
 mod tests {
-    use super::*;
+    use crate::find_term;
+    use crate::{SEARCH_TERM, QUOTE};
 
     #[test]
     fn correct_line() {
