@@ -7,22 +7,22 @@ edition = "2021"
 
 [[bin]]
 name = "ch1"
-path = "ch1"
+path = "ch1/src/main.rs"
 
 [[bin]]
 name = "ch2"
-path = "ch2"
+path = "ch2/src/main.rs"
 
 [[bin]]
 name = "ch3"
-path = "ch3"
+path = "ch3/src/main.rs"
 
 [[bin]]
 name = "ch4"
-path = "ch4"
+path = "ch4/src/main.rs"
 
 [[bin]]
 name = "FizzBuzz"
-path = "FizzBuzz"
+path = "FizzBuzz/src/main.rs"
 
 [dependencies]
