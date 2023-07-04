@@ -14,10 +14,6 @@ name = "guess"
 path = "ch2/src/guess.rs"
 
 [[bin]]
-name = "guessing_game"
-path = "ch2/src/guessing_game.rs"
-
-[[bin]]
 name = "random_numbers"
 path = "ch2/src/random_numbers"
 
