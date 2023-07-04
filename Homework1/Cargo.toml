@@ -15,7 +15,7 @@ path = "ch2/src/guess.rs"
 
 [[bin]]
 name = "random_numbers"
-path = "ch2/src/random_numbers"
+path = "ch2/src/random_numbers.rs"
 
 [[bin]]
 name = "arrays"
