@@ -10,16 +10,48 @@ name = "ch1"
 path = "ch1/src/main.rs"
 
 [[bin]]
-name = "ch2"
-path = "ch2/src/main.rs"
+name = "guess"
+path = "ch2/src/guess.rs"
 
 [[bin]]
-name = "ch3"
-path = "ch3/src/main.rs"
+name = "guessing_game"
+path = "ch2/src/guessing_game.rs"
 
 [[bin]]
-name = "ch4"
-path = "ch4/src/main.rs"
+name = "random_numbers"
+path = "ch2/src/random_numbers"
+
+[[bin]]
+name = "arrays"
+path = "ch3/src/arrays.rs"
+
+[[bin]]
+name = "divisible"
+path = "ch3/src/divisible.rs"
+
+[[bin]]
+name = "multiple_loops"
+path = "ch3/src/multiple_loops.rs"
+
+[[bin]]
+name = "shadowing"
+path = "ch3/src/shadowing.rs"
+
+[[bin]]
+name = "ownership"
+path = "ch4/src/ownership.rs"
+
+[[bin]]
+name = "slice"
+path = "ch4/src/slice.rs"
+
+[[bin]]
+name = "string_slices"
+path = "ch4/src/string_slices.rs"
+
+[[bin]]
+name = "transfering_ownership"
+path = "ch4/src/transfering_ownership.rs"
 
 [[bin]]
 name = "FizzBuzz"
