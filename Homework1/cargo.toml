@@ -1,8 +1,28 @@
-[workspace]
-members = [
-    "ch1",
-    "ch2",
-    "ch3",
-    "ch4",
-    "FizzBuzz"
-]
+[package]
+name = "Homework1"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "ch1"
+path = "ch1"
+
+[[bin]]
+name = "ch2"
+path = "ch2"
+
+[[bin]]
+name = "ch3"
+path = "ch3"
+
+[[bin]]
+name = "ch4"
+path = "ch4"
+
+[[bin]]
+name = "FizzBuzz"
+path = "FizzBuzz"
+
+[dependencies]
