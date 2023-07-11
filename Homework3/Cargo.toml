@@ -9,8 +9,4 @@ edition = "2021"
 name = "vector"
 path = "src/vector.rs"
 
-[[bin]]
-name = "hash"
-path = "src/hash.rs"
-
 [dependencies]
