@@ -8,8 +8,7 @@
 
 const SEARCH_TERM: &str = "picture";
 const QUOTE: &str = "Every face, every shop, bedroom window, public-house, and
-dark square is a picture feverishly turned--in search of what?
-It is the same with books. What do we seek through millions of pages?";
+dark square is a picture feverishly turned--in search of what?";
 
 fn main() {
     let result = find_term(SEARCH_TERM, QUOTE);
@@ -38,8 +37,8 @@ mod tests {
 
     #[test]
     fn correct_line() {
-        let answer = find_term(SEARCH_TERM, QUOTE);
+        let ans = find_term(SEARCH_TERM, QUOTE);
 
-        assert_eq!("2: dark square is a picture feverishly turned--in search of what?", answer);
+        assert_eq!("2: dark square is a picture feverishly turned--in search of what?", ans);
     }
 }
